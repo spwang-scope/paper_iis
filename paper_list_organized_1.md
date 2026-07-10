@@ -58,6 +58,7 @@
 | New Perspectives on Multivariate Time Series Forecasting: Lightweight Networks Combined with Multi-Scale Hybrid State Space Models (LSM) | Expert Syst. Appl. 2025                    | https://www.sciencedirect.com/science/article/abs/pii/S0957417425024625                                          | lightweight, multi-scale, hybrid SSM                                             |
 | Learning Long Range Dependencies Through Time Reversal Symmetry Breaking (RHEL)                                                          | NeurIPS 2025                               | https://openreview.net/forum?id=w1ihNiIBOc                                                                       | Hamiltonian, gradient estimation, physics-grounded                               |
 | Time Series Analysis by State Space Methods (Durbin & Koopman)                                                                           | Oxford Univ. Press (2nd ed., 2012)         | —                                                                                                                | classical SSM, Kalman filter, textbook                                           |
+| Uncertainty Representations in State-Space Layers for Deep Reinforcement Learning under Partial Observability                                                                           | TMLR 2025         | —                                                                                                                | SSM, Kalman filter, reinforcement learning                                           |
 
 ## Diffusion Models
 
@@ -86,6 +87,8 @@
 | FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching                                                                   | ⚠ 2024                                     | https://arxiv.org/abs/2412.15205                                                                                 | next-scale AR, image generation, tokenizer                                       |
 | Flow Matching Guide and Code                                                                                                             | arXiv 2024 (Meta FAIR)                     | https://arxiv.org/abs/2412.06264                                                                                 | tutorial/reference, generative modeling                                          |
 | An Introduction to Flow Matching and Diffusion Models                                                                                    | arXiv 2025 (MIT notes)                     | https://arxiv.org/abs/2506.02070                                                                                 | lecture notes, diffusion, generative modeling                                    |
+| Multisample Flow Matching: Straightening Flows with Minibatch Couplings                                                                                    | ICML 2023                    | https://dl.acm.org/doi/10.5555/3618408.3619574                                                                                 | flow Matching, optimal transport, generative modeling, ImageNet                                    |
+
 
 ## Spectral / Time-Frequency / Wavelet
 
@@ -100,6 +103,10 @@
 | Deconvolutive Short-Time Fourier Transform Spectrogram                                                                                   | IEEE Signal Process. Lett. (2009)          | —                                                                                                                | STFT, deconvolution, spectrogram                                                 |
 | Forecasting Wavelet Transformed Time Series with Attentive Neural Networks                                                               | IEEE ICDM 2018                             | —                                                                                                                | wavelet, attention, forecasting                                                  |
 | Learning Sparse Orthogonal Wavelet Filters (Recoskie)                                                                                    | Thesis 2018                                | —                                                                                                                | wavelet filters, sparse, orthogonal                                              |
+| Neural Fourier Transform: A General Approach to Equivariant Representation Learning                                                                                    | ICLR 2024                                | —                                                                                                                | FFT, representation learning
+| SSAST: Self-Supervised Audio Spectrogram Transformer | AAAI 2022                                | —                                                                                                                | spectral, transformer, audio |
+| BasisFormer: Attention-based Time Series Forecasting with Learnable and Interpretable Basis | NIPS 2023                                | —                                                                                                                | FFT, transformer, representation learning |
+| Understanding the Expressive Power and Mechanisms of Transformer for Sequence Modeling | NIPS 2024 | —                                                                   | transformer |
 
 ## Vision Transformer / Image-Based TS
 
@@ -109,7 +116,6 @@
 | ConvFormer: Plug-and-Play CNN-Style Transformers for Improving Medical Image Segmentation                                                | MICCAI 2023                                | https://arxiv.org/abs/2309.05674                                                                                 | CNN-style transformer, attention collapse                                        |
 | Time Series as Images: Vision Transformer for Irregularly Sampled Time Series                                                            | NeurIPS 2023                               | https://arxiv.org/abs/2303.12799                                                                                 | irregular sampling, imaging, ViT                                                 |
 | ASiT: Local-Global Audio Spectrogram Vision Transformer for Event Classification                                                         | IEEE TASLP 2024                            | https://arxiv.org/abs/2211.13189                                                                                 | audio spectrogram, self-supervised, group-masked modeling                        |
-| Image-based time series forecasting: A deep convolutional neural network approach                                                        | Neural Networks 2023                       | https://doi.org/10.1016/j.neunet.2022.10.006                                                                     | CNN, image-only                                                                  |
 
 ## Masked Modeling / Decoder Masking
 
